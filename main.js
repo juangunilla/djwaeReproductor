@@ -219,7 +219,7 @@ Player.prototype = {
     // Determine our current seek position.
     var seek = sound.seek() || 0;
     timer.innerHTML = self.formatTime(Math.round(seek));
-    progress.style.width = (((seek / sound.duration()) * 65) || 0) + '%';
+    progress.style.width = (((seek / sound.duration()) * 60) || 0) + '%';
 
     // If the sound is still playing, continue stepping.
     if (sound.playing()) {

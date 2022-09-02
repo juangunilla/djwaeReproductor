@@ -172,7 +172,7 @@ img {
   height:10px;
   background-color: rgb(128, 128, 128);
   border: 1px solid black;
-  display: none;
+  
 
 
 }
@@ -243,8 +243,5 @@ img {
   }
 }
 @media (min-width: 700px) {
-  #progress{
-    display: none;
-    visibility:hidden;
-  }
+ 
 }
