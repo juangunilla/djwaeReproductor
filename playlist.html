@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/6602f5406a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kavoon&family=Orbitron:wght@500&family=Roboto+Serif:ital,opsz,wght@1,8..144,700&family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reproductor.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Dj Wae</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <h1>Dj Wae</h1>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Playlist</a></li>
+        <li><a href="#">social networks</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="contenedor__reproductor">
+      <div class="player">
+        <div class="player__controls">
+          <div class="player__btn player__btn--small" id="previous">
+            <i class="fas fa-arrow-left"></i>
+          </div>
+          <h5 class="player__title">playing now</h5>
+          <div class="player__btn player__btn--small" id="playlistBtn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div class="player__album">
+          <img
+            src="./img/album/blackstatusclub.jpeg"
+            alt="Album Cover"
+            class="player__img"
+            loading="lazy"
+          />
+        </div>
+        <div class="btn" id="volumeBtn"></div>
+        <div id="volume" class="fadeout">
+          <div id="barFull" class="bar"></div>
+          <div id="barEmpty" class="bar"></div>
+          <div id="sliderBtn"></div>
+        </div>
+        <h2 class="player__artist">Dj Wae</h2>
+        <h3 class="player__song" id="track">Electro</h3>
+
+        <div id="waveform"></div>
+        <div id="bar"></div>
+        <div id="progress"></div>
+        
+        <div class="audio-duration">
+          <div class="start" id="timer">00:00</div>
+          <div class="end" id="duration">00:00</div>
+        </div>
+
+        <audio class="player__audio" controls id="audio"></audio>
+
+        <div class="player__controls">
+          <div id="loading"></div>
+          <div class="player__btn player__btn--medium" id="prevBtn">
+            <i class="fas fa-backward"></i>
+          </div>
+
+          <div class="player__btn player__btn--medium blue play" id="play">
+            <div id="playBtn"></div>
+            <div id="pauseBtn"></div>
+            
+          </div>
+
+          <div class="player__btn player__btn--medium" id="nextBtn">
+            <i class="fas fa-forward"></i>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor__musica">
+        <h2 class="titulo__playlist">Playlist</h2>
+        <div id="playlist"></div>
+        <div id="list"></div>
+      </div>
+    </div>
+    <script src="/main.js"></script>
+   
+  </body>
+</html>

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&family=Orbitron:wght@500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e0e5ec;
+}
+nav {
+  height: 90px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #e0e5ec;
+  -webkit-box-shadow: 12px 12px 24px #bec3c9, -12px -12px 24px #ffffff;
+  box-shadow: 12px 12px 24px #bec3c9, -12px -12px 24px #ffffff;
+}
+h1 {
+  /* Logo */
+  font-family: "Kavoon", cursive;
+  font-size: 2.4em;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  line-height: 85px;
+  text-shadow: 5px 5px 12px #bec3c9, -12px -5px 12px #ffffff, 12px 5px 12px #bec3c9,-12px -5px 12px #ffffff;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  line-height: 80px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active{
+    padding: 5px;
+    box-shadow: inset -8px -8px 20px #fff9, inset -5px -5px 6px #fff9,
+    inset 8px 8px 20px #0003, inset 5px 5px 6px #0001;
+}
+
+.contenedor {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 700px;
+  -webkit-border-radius: 24px;
+  padding: 20px;
+  border-radius: 24px;
+  background: #e0e5ec;
+  -webkit-box-shadow: 11px 11px 37px #636568, -11px -11px 37px #ffffff;
+  box-shadow: 11px 11px 37px #636568, -11px -11px 37px #ffffff;
+}
+
+.subtitulo {
+  padding: 10px;
+  font-family: "Roboto Serif", serif;
+  font-size: 1.7em;
+}
+.presentacion {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2em;
+  color: black;
+}
