@@ -152,30 +152,7 @@ img {
   left: 10%;
   margin: auto -34.5px;
 }
-#bar {
-  position: relative;
-  top:20px;
-  width:80% ;
-  height: 9px;
-  background-color: white;
-  border-radius: 12px;
-  border: 0px solid black;
-  -webkit-box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
-  box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
-}
 
-#progress{
-  position: absolute;
-  top:34.7rem;
-  left: 8.0rem;
-  width:0%;
-  height:10px;
-  background-color: rgb(128, 128, 128);
-  border: 1px solid black;
-  
-
-
-}
 #pauseBtn {
   position: relative;
   background-image: url("./img/icons/pause-solid.svg");
@@ -236,12 +213,27 @@ img {
     margin-top: 70px;
     margin-left: 45px;
   }
-  #progress{
-    display: block;
-    top:30.3rem;
-    left:4.7rem;
+  #bar {
+    position: relative;
+    top: 20px;
+    width: 80%;
+    height: 9px;
+    background-color: white;
+    border-radius: 12px;
+    border: 0px solid black;
+    -webkit-box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
+    box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
+  }
+
+  #progress {
+    position: absolute;
+    top: 30.3rem;
+    left: 4.7rem;
+    width: 0%;
+    height: 10px;
+    background-color: rgb(128, 128, 128);
+    border: 1px solid black;
   }
 }
 @media (min-width: 700px) {
- 
 }

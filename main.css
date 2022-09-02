@@ -49,8 +49,8 @@ a {
   padding: 20px;
   border-radius: 24px;
   background: #e0e5ec;
-  -webkit-box-shadow: 11px 11px 37px #636568, -11px -11px 37px #ffffff;
-  box-shadow: 11px 11px 37px #636568, -11px -11px 37px #ffffff;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+  -9px -9px 16px rgba(255, 255, 255, 0.5);
 }
 
 .subtitulo {
@@ -75,6 +75,9 @@ a {
   }
   h1{
     line-height: 50px;
+  }
+  .contenedor{
+    width: 300px;
   }
 
 
