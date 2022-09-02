@@ -67,17 +67,17 @@ Player.prototype = {
 
           // Start the wave animation if we have already loaded
           
-          bar.style.display = 'none';
+          bar.style.display = 'block';
           pauseBtn.style.display = 'flex';
         },
         onload: function() {
           // Start the wave animation.
-          bar.style.display = 'none';
+          bar.style.display = 'block';
           loading.style.display = 'none';
         },
         onend: function() {
           // Stop the wave animation.
-          bar.style.display = 'block';
+          bar.style.display = 'none';
           self.skip('next');
         },
         onpause: function() {
@@ -219,7 +219,7 @@ Player.prototype = {
     // Determine our current seek position.
     var seek = sound.seek() || 0;
     timer.innerHTML = self.formatTime(Math.round(seek));
-    progress.style.width = (((seek / sound.duration()) * 100) || 0) + '%';
+    progress.style.width = (((seek / sound.duration()) * 65) || 0) + '%';
 
     // If the sound is still playing, continue stepping.
     if (sound.playing()) {
@@ -276,6 +276,11 @@ var player = new Player([
   {
     title: '80s Vibe',
     file: '80s_vibe',
+    howl: null
+  },
+  {
+    title: 'Dance of the moon',
+    file: 'Dance_of_the_moon',
     howl: null
   }
 ]);

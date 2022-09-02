@@ -24,7 +24,8 @@ h1 {
   color: white;
   -webkit-text-stroke: 1px black;
   line-height: 85px;
-  text-shadow: 5px 5px 12px #bec3c9, -12px -5px 12px #ffffff, 12px 5px 12px #bec3c9,-12px -5px 12px #ffffff;
+  text-shadow: 5px 5px 12px #bec3c9, -12px -5px 12px #ffffff,
+    12px 5px 12px #bec3c9, -12px -5px 12px #ffffff;
 }
 ul {
   display: flex;
@@ -38,11 +39,7 @@ a {
   text-decoration: none;
   color: black;
 }
-a:active{
-    padding: 5px;
-    box-shadow: inset -8px -8px 20px #fff9, inset -5px -5px 6px #fff9,
-    inset 8px 8px 20px #0003, inset 5px 5px 6px #0001;
-}
+
 
 .contenedor {
   margin-top: 50px;
@@ -65,4 +62,20 @@ a:active{
   font-family: "Roboto Slab", serif;
   font-size: 1.2em;
   color: black;
+}
+@media (max-width: 687px) {
+  nav{
+    height: 50px;
+  }
+  ul {
+    padding: 0;
+    font-size: 0.8em;
+    line-height: 50px;
+    font-weight: 600;
+  }
+  h1{
+    line-height: 50px;
+  }
+
+
 }
