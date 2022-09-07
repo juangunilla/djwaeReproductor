@@ -66,7 +66,7 @@ Player.prototype = {
 
           // Start the wave animation if we have already loaded
           
-          bar.style.display = 'block';
+          bar.classList.add("block");
           pauseBtn.style.display = 'flex';
         },
         onload: function() {
