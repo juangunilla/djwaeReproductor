@@ -273,8 +273,8 @@ var player = new Player([
     howl: null
   },
   {
-    title: '80s Vibe',
-    file: '80s_vibe',
+    title: 'Min',
+    file: 'min',
     howl: null
   },
   {
