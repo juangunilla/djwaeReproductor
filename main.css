@@ -88,7 +88,7 @@ a {
 }
 .subtituloSocial{
   margin-left: 50px;
-  margin-top: 1em;
+  margin-top: 1rem;
   font-family: "Kavoon", cursive;
   font-size: 2.5em;
   font-weight: 100;
@@ -96,9 +96,9 @@ a {
   -webkit-text-stroke: 1px white;
 }
 .mediumDance{
-  font-size: 1.5em;
-  margin-left: 60px;
-  margin-top: 1em;
+  font-size: 2em;
+  margin-left: 50px;
+  margin-top: 1rem;
   border: 1px solid black;
   padding: 5px;
   background-color: white;
